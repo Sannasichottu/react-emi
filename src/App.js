@@ -2,7 +2,6 @@ import React ,{useState} from 'react';
 import './App.css';
 import { withStyles } from '@material-ui/core/styles';
 import { Typography, Slider, Table, TableRow, TableCell } from '@mui/material';
-import { Pie } from 'react-chartjs-2';
 import TableDetails from './TableDetails';
 import SliderMarks from './SliderMarks';
 
