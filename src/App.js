@@ -53,20 +53,6 @@ function App() {
               <TableCell>
                 <TableDetails pAmount={pAmount} totalAmt={totalAmt} interest = {interest} duration={duration} emi={emi} TotalAmountofInterest={TotalAmountofInterest} />
               </TableCell>
-              <TableCell>
-                <Pie 
-                data ={{
-                  labels:['Total Interest', 'Total Amount'],
-                  datasets:[{
-                    data:[TotalAmountofInterest,pAmount],
-                    backgroundColor:['red', 'blue']
-                  }]
-                }}
-                width={200}
-                height = {200}
-                />
-              </TableCell>
-
             </TableRow>
           </Table>
           </div>
